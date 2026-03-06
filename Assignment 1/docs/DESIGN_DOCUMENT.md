@@ -1,4 +1,4 @@
-# One-on-One Chat Application — System Design Document
+# NDP One-on-One Chat Application — System Design Document
 
 > **Course:** Network & Distributed Programming  
 > **Date:** March 2026  
@@ -845,12 +845,12 @@ Testing is divided into three categories:
 
 ### 8.5 Test Results Summary
 
-| Category           | Tests  | Passed | Failed |
-| ------------------ | ------ | ------ | ------ |
-| Build Verification | 2      | 2      | 0      |
-| Functional         | 12     | —      | —      |
-| Concurrency        | 1      | —      | —      |
-| **Total**          | **15** | —      | —      |
+| Category           | Tests | Passed | Failed |
+| ------------------ | ----- | ------ | ------ |
+| Build Verification | 2     | 2      | 0      |
+| Functional         | 0     | —      | —      |
+| Concurrency        | 0     | —      | —      |
+| **Total**          | **2** | —      | —      |
 
 > **Note:** Functional and concurrency tests are designed for manual execution by the tester. Run each test case sequentially and mark the result.
 

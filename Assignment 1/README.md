@@ -54,7 +54,7 @@ Open **separate terminal windows** and run `./chat_app` in each. File locking en
 ## Project Structure
 
 ```
-Chat_App(1on1)/
+Assignment1/
 ├── main.c              # Controller — entry point, menu loops
 ├── auth.c / auth.h     # Registration, login, account deletion
 ├── user_mgr.c / .h     # List and search users
