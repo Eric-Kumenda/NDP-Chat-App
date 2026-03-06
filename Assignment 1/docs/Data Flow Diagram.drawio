@@ -1,0 +1,90 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="YayRMPT4257BAX-eSrvQ">
+    <mxGraphModel dx="872" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xCnE-j09gEioB6ChgiHt-1" value="User" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="133" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-2" value="Register/Login Process" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="269" y="62" width="225" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-3" value="users.txt" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="738" y="55" width="75" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-4" value="User Discovery" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="997" y="62" width="168" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-5" value="Message Dispatcher" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="278" y="205" width="206" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-6" value="inbox_recipient.txt" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="704" y="192" width="144" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-7" value="Inbox Viewer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="242" width="152" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-8" value="Credentials" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.22;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-1" target="xCnE-j09gEioB6ChgiHt-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="169" y="89" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-9" value="" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.49;entryX=0.01;entryY=0.5;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-2" target="xCnE-j09gEioB6ChgiHt-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-10" value="Search Query" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=0;entryX=0.13;entryY=-0.01;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-1" target="xCnE-j09gEioB6ChgiHt-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="169" y="20" />
+              <mxPoint x="923" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-11" value="User List" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-3" target="xCnE-j09gEioB6ChgiHt-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-12" value="Match Results" style="curved=1;startArrow=none;endArrow=block;exitX=0.13;exitY=0.99;entryX=1;entryY=0.49;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-4" target="xCnE-j09gEioB6ChgiHt-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="923" y="157" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-13" value="Message + Recipient" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-1" target="xCnE-j09gEioB6ChgiHt-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="169" y="232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-14" value="Append Data (Locked)" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-5" target="xCnE-j09gEioB6ChgiHt-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-15" value="Read Content" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.17;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-6" target="xCnE-j09gEioB6ChgiHt-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="923" y="232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCnE-j09gEioB6ChgiHt-16" value="Display Messages" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.91;entryY=0.99;rounded=0;" edge="1" parent="1" source="xCnE-j09gEioB6ChgiHt-7" target="xCnE-j09gEioB6ChgiHt-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="923" y="306" />
+              <mxPoint x="169" y="306" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
